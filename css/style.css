@@ -37,6 +37,29 @@ section p{
   font-size: 1.1rem;
 }
 
+ul li {
+  margin-left: 20px;
+}
+
+table, ul{
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  height: 200px;
+  width:1800px;
+}
+
+th{
+  text-align: left;
+}
+
+thead{
+background-color:rgb(78, 160, 255);
+color: white;
+}
+
 #autore{
   color: rgb(78, 160, 255);
 }
@@ -45,12 +68,6 @@ section p{
   max-width: 1200px;
 }
 
-ul li {
-  margin-left: 20px;
-}
-ul{
-  margin-top: 30px;
-}
 .title{
   margin-top: 10px;
   font-size: 2rem;
@@ -58,7 +75,7 @@ ul{
   color: grey;
 }
 
-.img, .main-text{
+.img, .main-text, .secondo-paragrafo{
   margin-top: 20px;
 }
 
@@ -70,14 +87,9 @@ ul{
   background-color: yellow;
 }
 
-table {
-  border-collapse: collapse;
+.riga-colorata{
+  background-color: aquamarine;
 }
 
-thead{
-background-color:rgb(78, 160, 255);
-color: white;
-
-}
 
 
