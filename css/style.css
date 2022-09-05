@@ -5,6 +5,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+header img, .title, .img, .main-text, .img-descrition {
+  margin-left: 5px;
+}
+
 /* HEADER */
 header{
   background-image: url('../img/pattern.png');
@@ -18,7 +22,6 @@ header{
 header img{
   height: 50px;
   margin-top:40px ;
-  margin-left: 5px;
 }
 
 /* MAIN */
@@ -42,15 +45,39 @@ section p{
   max-width: 1200px;
 }
 
+ul li {
+  margin-left: 20px;
+}
+ul{
+  margin-top: 30px;
+}
 .title{
   margin-top: 10px;
   font-size: 2rem;
   text-align: left;
-  margin-left: 5px;
   color: grey;
 }
 
+.img, .main-text{
+  margin-top: 20px;
+}
 
+.img-descrition p{
+  font-size: 0.8rem;
+}
 
+.highlighted{
+  background-color: yellow;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead{
+background-color:rgb(78, 160, 255);
+color: white;
+
+}
 
 
