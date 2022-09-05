@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+header{
+  background-image: url('../img/pattern.png');
+  height: 100px;
+  background-color: rgb(78, 160, 255);
+  background-size:400px ;
+  background-position: -125px 0;
+}
+
+
+header img{
+  height: 50px;
+  margin-top:40px ;
+  margin-left: 5px;
+}
+
+/* MAIN */
+h1{
+  color: black;
+}
+
+section h2{
+  font-size: 1.5rem;
+}
+
+section p{
+  font-size: 1.1rem;
+}
+
+#autore{
+  color: rgb(78, 160, 255);
+}
+
+.conteiner{
+  max-width: 1200px;
+}
+
+.title{
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 5px;
+  color: grey;
+}
+
+
+
+
+
