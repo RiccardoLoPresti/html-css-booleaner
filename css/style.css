@@ -5,7 +5,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-header img, .title, .img, .main-text, .img-descrition {
+header img, .title, .img, .main-text, .img-descrition, footer{
   margin-left: 5px;
 }
 
@@ -29,6 +29,10 @@ h1{
   color: black;
 }
 
+h3{
+  color: grey;
+}
+
 section h2{
   font-size: 1.5rem;
 }
@@ -38,7 +42,7 @@ section p{
 }
 
 
-table, .ul{
+table, .ul, footer{
   margin-top: 30px;
 }
 
@@ -51,7 +55,7 @@ th{
 }
 
 td{
-  width: 260px;
+  width: 20%;
   height:60px;
 }
 
@@ -75,7 +79,7 @@ thead{
   color: grey;
 }
 
-.img, .main-text, .secondo-paragrafo{
+.img, .main-text, .secondo-paragrafo, .footer-img, .footer-img-2{
   margin-top: 20px;
 }
 
@@ -96,7 +100,27 @@ thead{
 }
 
 .testo-lungo{
-  width: 700px;
+  width: 80%;
 }
 
+.text-img{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
+.footer-img{
+  background-image:url(../img/monitor.jpg);
+  width: 270px;
+  height: 200px;
+}
+
+.footer-img-2{
+  background-image:url(../img/graph.jpg);
+  width: 270px;
+  height: 200px;
+  margin-bottom: 30px;
+
+}
