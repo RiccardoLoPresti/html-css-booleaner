@@ -1,3 +1,4 @@
+/* GENERALE */
 *{
   margin: 0;
   padding: 0;
@@ -25,6 +26,7 @@ header img{
 }
 
 /* MAIN */
+
 h1{
   color: black;
 }
@@ -103,6 +105,7 @@ thead{
   width: 80%;
 }
 
+/* FOOTER */
 .text-img{
   color: rgb(255, 255, 255);
   font-size: 25px;
@@ -122,5 +125,4 @@ thead{
   width: 270px;
   height: 200px;
   margin-bottom: 30px;
-
 }
