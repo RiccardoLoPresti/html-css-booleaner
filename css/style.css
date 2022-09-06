@@ -10,6 +10,16 @@ header img, .title, .img, .main-text, .img-descrition, footer{
   margin-left: 5px;
 }
 
+.conteiner{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img, .main-text, .secondo-paragrafo, .footer-img, .footer-img-2{
+  margin-top: 20px;
+}
+
 /* HEADER */
 header{
   background-image: url('../img/pattern.png');
@@ -19,7 +29,6 @@ header{
   background-position: -125px 0;
 }
 
-
 header img{
   height: 50px;
   margin-top:40px ;
@@ -27,88 +36,85 @@ header img{
 
 /* MAIN */
 
-h1{
+main h1{
   color: black;
 }
 
-h2, h3{
-  color: grey;
-}
-
-
-section h2{
-  font-size: 1.5rem;
-}
-
-section p{
+main section p{
   font-size: 1.1rem;
 }
 
 
-table, .ul, footer{
+main table, .ul, footer{
   margin-top: 30px;
 }
 
-table {
+main table {
   border-collapse: collapse;
   margin-right: 5px;
 }
 
-th{
+main th{
   text-align: left;
 }
 
-td{
+main td{
   width: 20%;
   height:60px;
 }
 
-thead{
+main thead{
   background-color:rgb(32, 169, 229);
   color: white;
 }
 
 
-#autore{
+main #autore{
   color: rgb(78, 160, 255);
 }
 
-.conteiner{
-  max-width: 1200px;
-}
 
-.title{
+main .title{
   margin-top: 10px;
   font-size: 2rem;
   text-align: left;
 }
 
-.img, .main-text, .secondo-paragrafo, .footer-img, .footer-img-2{
-  margin-top: 20px;
+main .dida, main .data{
+  color: grey;
 }
 
-.img-descrition p{
+main .data{
   font-size: 0.8rem;
 }
 
-.highlighted{
-  background-color: yellow;
-
+main .img-descrition span{
+  font-size: 0.8rem;
 }
-.ul {
+
+main .highlighted{
+  background-color: yellow;
+}
+
+main .ul {
   margin-left: 20px;
 }
 
-.riga-colorata{
+main .riga-colorata{
   background-color: rgb(177, 229, 242);
 }
 
-.testo-lungo{
+main .testo-lungo{
   width: 80%;
 }
 
 /* FOOTER */
-.text-img{
+footer h3{
+  margin-top: 10px;
+  color: grey;
+}
+
+footer .text-img{
   color: rgb(255, 255, 255);
   font-size: 25px;
   padding-top: 20px;
@@ -117,19 +123,19 @@ thead{
   text-decoration-line: none;
 }
 
-.footer-img{
+footer .footer-img{
   background-image:url(../img/monitor.jpg);
   width: 270px;
   height: 200px;
 }
 
-.footer-img-2{
+footer .footer-img-2{
   background-image:url(../img/graph.jpg);
   width: 270px;
   height: 200px;
   margin-bottom: 30px;
 }
 
-.footer-img a, .footer-img-2 a{
+footer .footer-img a, .footer-img-2 a{
   text-decoration-line: none;
 }
