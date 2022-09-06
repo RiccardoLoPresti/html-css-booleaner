@@ -67,6 +67,7 @@ thead{
   color: white;
 }
 
+
 #autore{
   color: rgb(78, 160, 255);
 }
@@ -126,4 +127,8 @@ thead{
   width: 270px;
   height: 200px;
   margin-bottom: 30px;
+}
+
+.footer-img a, .footer-img-2 a{
+  text-decoration-line: none;
 }
