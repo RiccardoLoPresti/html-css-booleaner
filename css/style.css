@@ -51,6 +51,7 @@ table, .ul, footer{
 
 table {
   border-collapse: collapse;
+  margin-right: 5px;
 }
 
 th{
